@@ -1,0 +1,33 @@
+.main{
+    display: grid;
+    margin-top:-25px;
+    font-size: 20px;
+    height: 200px;
+    /*align-items: center;*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.preInline {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 900;
+}
+.itemA {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: end;
+}
+
+.itemB {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: start;
+}
+input {
+    margin: 10px 15px;
+    width: 150px;
+    border-radius: 5%;
+    border: solid 2px #223136;
+    height: 25px
+}

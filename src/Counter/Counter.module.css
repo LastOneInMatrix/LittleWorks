@@ -1,51 +1,35 @@
 .main {
     padding: 20px;
     width: 400px;
-    height: 300px;
+    height: 350px;
     border: solid 5px #61dafb;
     border-radius: 10px;
     font-size: 80px;
     font-weight: 700;
-    line-height: 150px;
+}
 
-}
-.counterValue{
-    border: solid 5px #61dafb;
-    height: 150px;
-    text-align: center;
-    border-radius: 10px;
-    color: #282c34;
-    background-color: #61dafb;
-    padding: 10px;
-    /*margin: 15px auto;*/
-}
 .buttonsArea{
     margin: 30px auto;
     width: 390px;
+    height: 120px;
     border: solid 5px #61dafb;
     border-radius: 10px;
     display: flex; /* or inline-flex */
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
-.res {
+/*.res {*/
+/*    background-color: #61dafb;*/
+/*    color: #282c34;*/
+/*    font-size: 40px;*/
+/*    margin: 10px;*/
+/*    !*border: solid 5px #61dafb;*!*/
+/*    border-radius: 10px;*/
+/*    flex-basis:  0;*/
+/*    line-height: 50px;*/
+/*}*/
 
-    background-color: #61dafb;
-    color: #282c34;
-    font-size: 40px;
-    margin: 10px;
-    /*border: solid 5px #61dafb;*/
-    border-radius: 10px;
-    flex-basis:  0;
-    line-height: 50px;
-}
-.inc {
-    background-color: #61dafb;
-    color: #282c34;
-    font-size: 40px;
-    margin: 10px;
-    /*border: solid 5px #61dafb;*/
-    border-radius: 10px;
-    line-height: 50px;
+.preElement {
+    display: flex;
 }

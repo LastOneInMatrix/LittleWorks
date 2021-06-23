@@ -1,0 +1,10 @@
+.counterValue {
+    border: solid 5px #61dafb;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    color: #282c34;
+    background-color: #61dafb;
+    padding: 10px;
+    /*margin: 15px auto;*/
+}
