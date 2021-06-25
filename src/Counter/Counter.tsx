@@ -16,13 +16,14 @@ type CounterPropsType = {
     maxValue: MinMaxValues;
     changeValue: (value: MinMaxValues) => void;
     viewMode: ViewModeType;
+    showSettings: boolean;
 };
 
 
 export const Counter = (props: CounterPropsType) => {
     return <div className={styles.app}>
         <div className={styles.main}>
-                  <InfoPart viewMode={props.viewMode} maxValue={props.maxValue} changeValue={props.changeValue} disabled={props.disabled} count={props.count} whatToRender={props.whatDisplay}/>
+                  <InfoPart showSettings={true} viewMode={props.viewMode} maxValue={props.maxValue} changeValue={props.changeValue} disabled={props.disabled} count={props.count} whatToRender={props.whatDisplay}/>
             <div className={styles.buttonsArea}>
                 {
                     props.whatDisplay === 'custom' ? <Button text={'set'} onClick={props.onChangeView} disabled={props.disabled}/>

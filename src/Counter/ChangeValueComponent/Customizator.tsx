@@ -16,7 +16,6 @@ export const Customization = (props: CustomizationType) => {
         e.currentTarget.id === 'min' ? props.changeValue({...props.maxValue, min: +e.currentTarget.value }) : props.changeValue({...props.maxValue, max: +e.currentTarget.value})
     };
 
-    console.log(props.maxValue);
     return <div className={styles.main}>
         <div className={styles.itemA}><pre className={styles.preInline}>Min value</pre> <input id={'min'} value={props.maxValue.min} onChange={onChangeHandler} type={'number'}/></div>
         <div className={styles.itemB}><pre className={styles.preInline}>Max value</pre> <input id={'max'} value={props.maxValue.max} onChange={onChangeHandler} type={'number'}/></div>
