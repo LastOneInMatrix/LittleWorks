@@ -18,6 +18,6 @@ export const InfoPart = ({viewMode, ...props}: InfoPartType) => {
 
    return  <div className={styles.counterValue}>
 
-       {props.whatToRender === 'value' ? <ValuePart count={props.count} viewMode={viewMode} disabled={props.disabled}/>:   <Customization changeValue={props.changeValue}  maxValue={props.maxValue}/>}
+       {props.whatToRender === 'value' ? <ValuePart count={props.count} viewMode={viewMode} disabled={props.disabled}/>:<Customization changeValue={props.changeValue}  maxValue={props.maxValue}/>}
     </div>
 }
