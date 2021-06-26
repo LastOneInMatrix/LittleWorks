@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/LittleWorks/static/css/main.402ce469.chunk.css",
+    "main.js": "/LittleWorks/static/js/main.41839a3a.chunk.js",
+    "main.js.map": "/LittleWorks/static/js/main.41839a3a.chunk.js.map",
+    "runtime-main.js": "/LittleWorks/static/js/runtime-main.29b48941.js",
+    "runtime-main.js.map": "/LittleWorks/static/js/runtime-main.29b48941.js.map",
+    "static/js/2.2baa0e51.chunk.js": "/LittleWorks/static/js/2.2baa0e51.chunk.js",
+    "static/js/2.2baa0e51.chunk.js.map": "/LittleWorks/static/js/2.2baa0e51.chunk.js.map",
+    "static/js/3.7e43f95f.chunk.js": "/LittleWorks/static/js/3.7e43f95f.chunk.js",
+    "static/js/3.7e43f95f.chunk.js.map": "/LittleWorks/static/js/3.7e43f95f.chunk.js.map",
+    "index.html": "/LittleWorks/index.html",
+    "static/css/main.402ce469.chunk.css.map": "/LittleWorks/static/css/main.402ce469.chunk.css.map",
+    "static/js/2.2baa0e51.chunk.js.LICENSE.txt": "/LittleWorks/static/js/2.2baa0e51.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29b48941.js",
+    "static/js/2.2baa0e51.chunk.js",
+    "static/css/main.402ce469.chunk.css",
+    "static/js/main.41839a3a.chunk.js"
+  ]
+}
