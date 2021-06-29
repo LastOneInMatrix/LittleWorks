@@ -34,10 +34,6 @@ function App() {
 
     }, []);
 
-
-    console.log(maxValue.max + ' -max', count + ' -count');
-
-
     const onIncClick = () => {
         setCount(++count);
         if (maxValue.max !== count) {
