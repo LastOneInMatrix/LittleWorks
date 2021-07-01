@@ -1,6 +1,6 @@
 import React, {ChangeEvent} from 'react';
 import styles from './Customizator.module.css';
-import {MinMaxValues} from "../../App";
+import {MinMaxValues} from "../../AppRedux";
 
 type CustomizationType = {
     maxValue: MinMaxValues;
@@ -13,6 +13,8 @@ export const Customization = (props: CustomizationType) => {
 
 
     const onChangeHandler = (e:ChangeEvent<HTMLInputElement>) => {
+        console.log(e.currentTarget.id);
+        console.log(props.maxValue);
         e.currentTarget.id === 'min' ? props.changeValue({...props.maxValue, min: +e.currentTarget.value }) : props.changeValue({...props.maxValue, max: +e.currentTarget.value})
     };
 

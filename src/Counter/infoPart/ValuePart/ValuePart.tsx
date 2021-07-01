@@ -1,5 +1,5 @@
 import React from 'react';
-import {ViewModeType} from "../../../App";
+import {ViewModeType} from "../../../AppRedux";
 import styles from './ValuePart.module.css'
 
 type ValuePartPropsType = {

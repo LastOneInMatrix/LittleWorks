@@ -3,7 +3,7 @@ import styles from './Counter.module.css';
 
 import {Button} from "./Button/Button";
 import {InfoPart} from "./infoPart/InfoPart";
-import {MinMaxValues, ViewModeType} from "../App";
+import {MinMaxValues, ViewModeType} from "../AppRedux";
 
 
 type CounterPropsType = {
